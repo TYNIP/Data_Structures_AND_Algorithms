@@ -21,4 +21,5 @@ const breadthFirstTraversal = (start) => {
   
 };
 
-breadthFirstTraversal(testGraph.vertices[0]);
+/* TEST IT */
+/* breadthFirstTraversal(testGraph.vertices[0]); */

@@ -13,4 +13,5 @@ const depthFirstTraversal = (start, callback, visitedVertices = [start]) => {
   });
 };
 
-depthFirstTraversal(testGraph.vertices[0], (vertex) => { console.log(vertex.data) });
+/* TEST IT */
+/* depthFirstTraversal(testGraph.vertices[0], (vertex) => { console.log(vertex.data) }); */

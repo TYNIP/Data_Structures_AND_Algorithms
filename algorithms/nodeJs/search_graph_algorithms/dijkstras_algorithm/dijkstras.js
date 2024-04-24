@@ -37,7 +37,8 @@ const dijkstras = (graph, startingVertex) => {
 	return { distances, previous };
 };
 
-const results = dijkstras(testGraph, testSimpleGraph.vertices[0]);
-console.log(results);
-
 module.exports = dijkstras;
+
+/* TEST IT */
+/* const results = dijkstras(testGraph, testSimpleGraph.vertices[0]);
+console.log(results); */

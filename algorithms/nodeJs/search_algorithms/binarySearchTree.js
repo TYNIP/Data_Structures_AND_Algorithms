@@ -50,7 +50,7 @@ class BinaryTree {
   
   module.exports = BinaryTree;
   /* TEST IT */
-  const randomize = () => Math.floor(Math.random() * 40);
+  /* const randomize = () => Math.floor(Math.random() * 40);
   const bt = new BinaryTree(15);
   let numbers = [];
   
@@ -62,6 +62,6 @@ class BinaryTree {
   console.log(`Inserted [ ${numbers} ] to binary tree`);
   
   console.log('Depth First Traversal');
-  bt.depthFirstTraversal();
+  bt.depthFirstTraversal(); */
   
   

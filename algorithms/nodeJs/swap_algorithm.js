@@ -84,30 +84,23 @@ const nthLastNode = ( linkedList, n) => {
 
 console.log(nthLastNode(testList, 4));
 
-/* 
-Pointers at Different Speeds
-*/
+
 //solution 1
 const findMiddle = linkedList => {
   let fast = linkedList.head;
   let slow = linkedList.head;
 
-  // As long as the end of the list is not reached
   while (fast !== null) {
-    // Move the fast pointer at least one step
     fast = fast.getNextNode();
-    // If it isn't at the end of the list
     if (fast !== null) {
-      // Move both pointers forward once
       fast = fast.getNextNode();
       slow = slow.getNextNode();
     }
   }
-  // At this point, the slow pointer is in the middle
   return slow;
 };
 
-//soluction2
+//soluction 2
 const findMiddleAlternate = linkedList => {
     let count = 0;
     let fast = linkedList.head;
@@ -123,5 +116,5 @@ const findMiddleAlternate = linkedList => {
     return slow;
   };
 
-console.log(findMiddle(testList));
-
+/* TEST IT */
+/* console.log(findMiddle(testList)); */

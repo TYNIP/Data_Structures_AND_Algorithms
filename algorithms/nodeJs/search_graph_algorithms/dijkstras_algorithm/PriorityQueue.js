@@ -38,11 +38,8 @@ class PriorityQueue {
       let current = 1;
       let leftChild = getLeft(current);
       let rightChild = getRight(current);
-      // Check that there is something to swap (only need to check the left if both exist)
       while (this.canSwap(current, leftChild, rightChild)){
-        // Only compare left & right if they both exist
         if (this.exists(leftChild) && this.exists(rightChild)) {
-          // Make sure to swap with the smaller of the two children
           if (this.heap[leftChild].priority < this.heap[rightChild].priority) {
             this.swap(current, leftChild);
             current = leftChild;
@@ -51,7 +48,6 @@ class PriorityQueue {
             current = rightChild;
           }
         } else {
-          // If only one child exist, always swap with the left
           this.swap(current, leftChild);
           current = leftChild;
         }
@@ -69,7 +65,6 @@ class PriorityQueue {
     }
   
     canSwap(current, leftChild, rightChild) {
-      // Check that one of the possible swap conditions exists
       return (
         this.exists(leftChild) && this.heap[current].priority > this.heap[leftChild].priority
         || this.exists(rightChild) && this.heap[current].priority > this.heap[rightChild].priority

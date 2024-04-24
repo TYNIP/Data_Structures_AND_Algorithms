@@ -4,7 +4,6 @@ const swap = (arr, indexOne, indexTwo) => {
     arr[indexOne] = temp;
 };
 
-/*  */
 const quicksort = (array, leftBound = 0, rightBound = array.length - 1) => {
     if (leftBound < rightBound) {
       const pivotIndex = partition(array, leftBound, rightBound);
@@ -14,7 +13,6 @@ const quicksort = (array, leftBound = 0, rightBound = array.length - 1) => {
     return array;
   };
 
-/*  */
   const partition = (array, leftIndex, rightIndex) => {
     const pivot = array[Math.floor((rightIndex + leftIndex) / 2)];
     while (leftIndex <= rightIndex) {
@@ -40,7 +38,7 @@ const quicksort = (array, leftBound = 0, rightBound = array.length - 1) => {
   
 /* TEST IT */
 //UNCOMENT 1
-const randomize = () => Math.floor(Math.random() * 40);
+/* const randomize = () => Math.floor(Math.random() * 40);
 
 let numbers = [];
 
@@ -50,7 +48,7 @@ for (let i = 0; i < 5; i++) {
 
 console.log('Before quicksort:', numbers);
 const sorted = quicksort(numbers);
-console.log('After  quicksort:', sorted);
+console.log('After  quicksort:', sorted); */
 
 
 //UNCOMENT 2

@@ -71,7 +71,5 @@ const flights = [
     'Greenland Flying Seals flight #567'
   ];
   
-  // Enqueue runway with planes
   const departing = runway.load(flights);
-  // Clear each plane to takeoff
   runway.clear(departing); */

@@ -51,7 +51,9 @@ class TreeNode {
   
   module.exports = TreeNode;
 
-  const tree = new TreeNode(15);
+  /* TEST IT */
+  
+/* const tree = new TreeNode(15);
 const randomize = () => Math.floor(Math.random() * 20);
 
 // add first-level children
@@ -70,4 +72,4 @@ tree.print();
 console.log('depth firt');
 tree.depthFirstTraversal();
 console.log('breath firt');
-tree.breadthFirstTraversal();
+tree.breadthFirstTraversal(); */

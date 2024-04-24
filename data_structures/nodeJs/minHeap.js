@@ -22,12 +22,6 @@ class MinHeap {
       this.bubbleUp();
     }
 
-  /* 
-  compare the new element with its parent, making swaps if it 
-  violates the heap condition: children must be greater than 
-  their parents.
-  */
-
     bubbleUp() {
       let current = this.size;
       let swapCount = 0;
@@ -48,10 +42,8 @@ class MinHeap {
       let swapCount = 0;
   
       while (this.canSwap(current, leftChild, rightChild)) {
-        // Only compare left & right if they both exist
         if (this.exists(leftChild) && this.exists(rightChild)) {
   
-          // Make sure to swap with the smaller of the two children
           if (this.heap[leftChild] < this.heap[rightChild]) {
             this.swap(current, leftChild);
             current = leftChild;
@@ -62,7 +54,6 @@ class MinHeap {
         swapCount++;
           }
         } else {
-          // If only one child exist, always swap with the left
           this.swap(current, leftChild);
           current = leftChild;
       swapCount++;
@@ -81,7 +72,6 @@ class MinHeap {
     }
   
     canSwap(current, leftChild, rightChild) {
-      // Check that one of the possible swap conditions exists
       return (
         this.exists(leftChild) && this.heap[current] > this.heap[leftChild]
         || this.exists(rightChild) && this.heap[current] > this.heap[rightChild]
@@ -103,14 +93,9 @@ class MinHeap {
 /* TEST IT */
 
 /* 
-The number of swaps can be at most the height of the binary tree. 
-The relationship between the maximum number of nodes, N, of a binary tree 
-and the height, h, is:
-
 N = 2^ℎ+1 − 1
-
 */
-const minHeap = new MinHeap();
+/* const minHeap = new MinHeap();
 
 // populate minHeap with descending numbers from 10001 to 1
 console.log('Adding');
@@ -120,4 +105,4 @@ for (let i=10000; i >=1; i--) {
 
 // remove the minimum value from heap
 console.log('Removing');
-console.log('Minimum value = ' + minHeap.popMin());
+console.log('Minimum value = ' + minHeap.popMin()); */

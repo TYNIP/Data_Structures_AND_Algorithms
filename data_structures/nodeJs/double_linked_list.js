@@ -102,7 +102,8 @@ class DoublyLinkedList {
 
 module.exports = DoublyLinkedList;
 
-const subway = new DoublyLinkedList();
+/* TEST IT */
+/* const subway = new DoublyLinkedList();
 
 subway.addToHead('TimesSquare');
 subway.addToHead('GrandCentral');
@@ -116,4 +117,4 @@ subway.removeHead();
 subway.removeTail();
 
 subway.removeByData('TimesSquare');
-subway.printList();
+subway.printList(); */

@@ -15,6 +15,8 @@ Collection of data structures and algorithms in JS and Python.
     - Graphs
 
 - Python
+    - Nodes
+    - Linked Lists
 
 
 ## Algorithms

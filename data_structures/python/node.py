@@ -13,7 +13,7 @@ class Node:
     return self.value
 
 # TEST IT
-yacko = Node("likes to yak")
+""" yacko = Node("likes to yak")
 wacko = Node("has a penchant for hoarding snacks")
 dot = Node("enjoys spending time in movie lots")
 
@@ -24,5 +24,5 @@ dots_data = yacko.get_next_node().get_value()
 wackos_data = dot.get_next_node().get_value()
 
 print(dots_data)
-print(wackos_data)
+print(wackos_data) """
 

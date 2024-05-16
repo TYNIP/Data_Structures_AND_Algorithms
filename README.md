@@ -17,7 +17,10 @@ Collection of data structures and algorithms in JS and Python.
 - Python
     - Nodes
     - Linked Lists
-
+    - Double Linked Lists
+    - Stacks
+    - Queues
+    - Hash Maps
 
 ## Algorithms
 - Node
@@ -34,3 +37,8 @@ Collection of data structures and algorithms in JS and Python.
     - Swap
 
 - Python
+    - Swap
+
+## Examples
+- Python
+    - Hanoi Tower (Stack implementation)

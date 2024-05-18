@@ -37,8 +37,16 @@ Collection of data structures and algorithms in JS and Python.
     - Swap
 
 - Python
+    - Search
+        - Naive Pattern Search
+    - Sorting
+        - Bubble Sort
+        - Merge Sort
+        - Quick Sort
+    - Recursion
     - Swap
 
 ## Examples
 - Python
     - Hanoi Tower (Stack implementation)
+    - Flower Lenguage (HASH MAP IMPLEMENTATION)

@@ -1,3 +1,4 @@
 /node_modules
 /data_structures/python/__pycache__
 /algorithms/python/examples
+*__pycache__

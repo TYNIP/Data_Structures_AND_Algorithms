@@ -22,6 +22,10 @@ Collection of data structures and algorithms in JS and Python.
     - Queues
     - Hash Maps
 
+    - **Examples:**
+        - Hanoi Tower (Stack implementation)
+        - Flower Lenguage (HASH MAP IMPLEMENTATION)
+
 ## Algorithms
 - Node
     - Search
@@ -45,8 +49,6 @@ Collection of data structures and algorithms in JS and Python.
         - Quick Sort
     - Recursion
     - Swap
+    - **Dynamic Programming Examples:**
+        - Fibonacci
 
-## Examples
-- Python
-    - Hanoi Tower (Stack implementation)
-    - Flower Lenguage (HASH MAP IMPLEMENTATION)

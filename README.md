@@ -9,7 +9,7 @@ Collection of data structures and algorithms in JS and Python.
     - Double Linked Lists
     - Stacks
     - Queues
-    - Trees
+    - Trees (bfs, dfs)
     - Hash Maps
     - Min Heap
     - Graphs
@@ -20,6 +20,7 @@ Collection of data structures and algorithms in JS and Python.
     - Double Linked Lists
     - Stacks
     - Queues
+    - trees (bfs, dfs)
     - Hash Maps
 
     - **Examples:**

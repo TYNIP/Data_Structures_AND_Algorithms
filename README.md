@@ -22,6 +22,8 @@ Collection of data structures and algorithms in JS and Python.
     - Queues
     - trees (bfs, dfs)
     - Hash Maps
+    - Max Heap
+    - Graphs
 
     - **Examples:**
         - Hanoi Tower (Stack implementation)
@@ -44,10 +46,14 @@ Collection of data structures and algorithms in JS and Python.
 - Python
     - Search
         - Naive Pattern Search
+        - Binary Search
+        - Binary Search Tree
+        - Graph Search
     - Sorting
         - Bubble Sort
         - Merge Sort
         - Quick Sort
+        - HeapSort
     - Recursion
     - Swap
     - **Dynamic Programming Examples:**

@@ -44,6 +44,9 @@ Collection of data structures and algorithms in JS and Python.
     - Swap
 
 - Python
+    - Path Search
+        - Dijkstras
+        - A*
     - Search
         - Naive Pattern Search
         - Binary Search
@@ -58,4 +61,6 @@ Collection of data structures and algorithms in JS and Python.
     - Swap
     - **Dynamic Programming Examples:**
         - Fibonacci
+    - **Examples:**
+        - SkyRoute (Graph Implementation, DFS, BFS)
 
